@@ -65,7 +65,7 @@ if uploaded_file is not None:
     with input_col:
         st.header("Original")
         # Display uploaded image.
-        st.image(img, channels="BGR", use_column_width=True)
+        st.image(img, channels="BGR")
 
     st.header("Filter Examples:")
     # Display a selection box for choosing the filter to apply.
