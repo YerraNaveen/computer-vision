@@ -84,16 +84,16 @@ if uploaded_file is not None:
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.caption("Black and White")
-        st.image("filter_bw.jpg")
+        st.image("https://raw.githubusercontent.com/YerraNaveen/computer-vision/d3e4431c2024918d8649844620a5bd99cfa870ba/ImageFilters/filter_bw.jpg")
     with col2:
         st.caption("Sepia / Vintage")
-        st.image("filter_sepia.jpg")
+        st.image("https://raw.githubusercontent.com/YerraNaveen/computer-vision/d3e4431c2024918d8649844620a5bd99cfa870ba/ImageFilters/filter_sepia.jpg")
     with col3:
         st.caption("Vignette Effect")
-        st.image("filter_vignette.jpg")
+        st.image("https://raw.githubusercontent.com/YerraNaveen/computer-vision/d3e4431c2024918d8649844620a5bd99cfa870ba/ImageFilters/filter_vignette.jpg")
     with col4:
         st.caption("Pencil Sketch")
-        st.image("filter_pencil_sketch.jpg")
+        st.image("https://raw.githubusercontent.com/YerraNaveen/computer-vision/d3e4431c2024918d8649844620a5bd99cfa870ba/ImageFilters/filter_pencil_sketch.jpg")
 
     # Flag for showing output image.
     output_flag = 1
